@@ -10,10 +10,8 @@ var getallen = [];
 document.write('<h2>' + 'Piramide oplopend' + '</h2>');
 
 for (var i = 0; i <= vraag; i++) {
+	document.write(getallen.join('') + '<br>');
 	getallen.push(i);
 }
-document.write('<h2>' + 'Array: ' + getallen + '</h2>');
 
-for (var i = 0; i < vraag; i++) {
-	document.write(getallen[i] + '<br>');
-}
+document.write("Array:" + getallen + "<br>");
