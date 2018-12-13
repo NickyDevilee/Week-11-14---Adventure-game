@@ -64,3 +64,11 @@ button{
 	top: 85%;
 	left: 65%;
 }
+
+#inventoryItem[src="img/sleutel.png"] {
+	position: absolute;
+	height: 35px;
+	width: 65px;
+	top: 90%;
+	left: 65%;
+}
