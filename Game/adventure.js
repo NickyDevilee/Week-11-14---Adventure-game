@@ -128,7 +128,6 @@ function level5() {
 	button3.style.visibility="hidden";
 	item.src = 'img/sleutel.png';
 	if (key == true) {
-		item.style.display="none";
 		item.style.visibility="hidden";
 	}else{
 		item.style.display="block";
@@ -141,7 +140,7 @@ function level5() {
 function sleutel() {
 	key = true;
 	console.log('sleutel opgepakt');
-	item.style.display="none";
+	item.style.visibility="hidden";
 }
 
 function level6() {
